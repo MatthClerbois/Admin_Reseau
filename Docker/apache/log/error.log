@@ -1,0 +1,3 @@
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 21 16:08:48.791537 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Aug 21 16:08:48.791581 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'

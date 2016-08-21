@@ -1,0 +1,12 @@
+#reseau supérieur
+TOPOLOGIE RESEAU : 29.05.92.0/24
+#permet aux container de communiquer entre eux
+
+#adresse du container bind
+BIND : 29.05.92.10
+
+#adresse du container apache
+APACHE : 29.05.92.20
+
+#adresse du conainer nginx
+NGINX : 29.05.92.30
