@@ -1,0 +1,17 @@
+#se connecter
+mysql -h 51.254.212.240 -u root -p
+
+#initialiser l'utilisation de la bdd  (ici:'wt5mdb)
+USE xxxx
+
+#afficher les bases de données
+SHOW DATABASES
+
+#pour afficher : 
+SELECT * FROM xxxx;
+
+#pour rajouter une biere (par ex)
+INSERT INTO biere (nom, type, a_reprendre, cote) VALUES ('xxx','xxxxxx', 'xxxx', xx);
+
+# pour quitter ->"CTRL+C"
+

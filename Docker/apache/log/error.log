@@ -85,3 +85,7 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Aug 23 09:42:04.700000 2016] [:error] [pid 127] [client 29.5.92.30:45455] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
 [Tue Aug 23 09:42:11.636650 2016] [:error] [pid 126] [client 29.5.92.30:45457] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
 [Tue Aug 23 09:42:33.251921 2016] [:error] [pid 128] [client 29.5.92.30:45459] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 10:06:36.237207 2016] [:error] [pid 128] [client 29.5.92.30:45587] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
+[Tue Aug 23 10:06:37.549122 2016] [:error] [pid 130] [client 29.5.92.30:45588] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
+[Tue Aug 23 10:06:38.524883 2016] [:error] [pid 129] [client 29.5.92.30:45589] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
+[Tue Aug 23 10:07:06.089201 2016] [:error] [pid 127] [client 29.5.92.30:45590] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
