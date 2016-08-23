@@ -1,0 +1,2 @@
+#execute un dump et l'envoie vers la BDD 
+mysql -u root -p < FICHIERDUMP.sql

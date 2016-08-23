@@ -56,7 +56,7 @@ http {
 	    }	
 	}
 
-	#Webmin	
+	#Webmin
 	server {
             access_log          /var/log/nginx/access.log;
             error_log           /var/log/nginx/error.log;
@@ -68,15 +68,7 @@ http {
             listen              80;
             add_header          Strict-Transport-Security "max-age=31536000";
 
-            server_name         webmin.wt5mc.ephec-ti.be;
-
-            location / {
-                proxy_pass      https://29.05.92.10:10000/;
-		
-		ProxyPassReverseCookieDomain 	https://29.05.92.10:10000/;
-		ProxyPassReverseCookiePath	https://29.05.92.10:10000/;
-            }
-
+            server_name         intranet.wt5mc.ephec-ti.be;
         }
 
 	#gérerle site intranet

@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 38400      ; 10 hours 40 minutes
+wt5mc.ephec-ti.be.	IN	SOA	dns.wt5mc.ephec-ti.be. webmaster.wt5mc.ephec-ti.be. (
+			1462104089
+			10800
+			3600
+			604800
+			38400 )
+                        NS      51.254.212.240.
+$ORIGIN wt5mc.ephec-ti.be.
+$TTL 60 ; 1 minute
+intranet.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
+www.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
+b2b.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
+dns.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
+webmin.wt5mc.ephec-ti.be.	IN	A	51.254.212.240

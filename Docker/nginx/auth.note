@@ -1,0 +1,12 @@
+# 	Pour ajouter des autorisations sur un virtualhost dans NGINX
+#	il suffit de rajouter dans le bloc
+# 	location {} (près du proxy_pass) des allow x.x.x.x/y &
+# 	deny x.x.x.x/y
+#	rajouter une ligne allow x.x.x.x/y pour donner l'acc�ès à d'autres machines
+
+location / {
+	allow 		29.05.92.0/24;
+	deny		all;
+
+	proxy_pass	29.05.92.20;
+}

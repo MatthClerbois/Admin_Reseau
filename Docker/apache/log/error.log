@@ -1,3 +1,87 @@
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
 [Sun Aug 21 16:08:48.791537 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
 [Sun Aug 21 16:08:48.791581 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Aug 21 17:57:03.545806 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 21 17:57:03.627017 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Aug 21 17:57:03.627032 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Aug 21 18:17:49.140429 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+[Sun Aug 21 18:17:49.217678 2016] [core:error] [pid 6] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:80 -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 21 18:17:49.234424 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Aug 21 18:17:49.234440 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Sun Aug 21 18:21:00.687474 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+[Sun Aug 21 18:21:00.765175 2016] [core:error] [pid 6] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:80 -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Sun Aug 21 18:21:00.786108 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Aug 21 18:21:00.786124 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:38:29.049467 2016] [core:error] [pid 6] (EAI 2)Name or service not known: AH00547: Could not resolve host name *:80 -- ignoring!
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:38:29.145419 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:38:29.145463 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:54:59.585896 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:54:59.716728 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:54:59.716741 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:55:00.080424 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:55:00.147142 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:55:00.147152 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:55:32.324937 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:55:32.450293 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:55:32.450306 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:55:32.794902 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:55:32.868581 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:55:32.868593 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:56:02.102823 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:56:02.244253 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:56:02.244267 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 07:56:02.569838 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 07:56:02.636062 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 07:56:02.636074 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 08:12:06.145949 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 08:12:06.146019 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 08:13:55.114474 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 08:13:55.264331 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 08:13:55.264346 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 08:13:55.575837 2016] [mpm_prefork:notice] [pid 6] AH00171: Graceful restart requested, doing restart
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 29.5.92.20. Set the 'ServerName' directive globally to suppress this message
+[Tue Aug 23 08:13:55.642398 2016] [mpm_prefork:notice] [pid 6] AH00163: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Tue Aug 23 08:13:55.642411 2016] [core:notice] [pid 6] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Tue Aug 23 09:08:42.192667 2016] [:error] [pid 126] [client 29.5.92.30:45344] PHP Parse error:  syntax error, unexpected 'mai92' (T_STRING) in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 6
+[Tue Aug 23 09:08:45.369533 2016] [:error] [pid 128] [client 29.5.92.30:45345] PHP Parse error:  syntax error, unexpected 'mai92' (T_STRING) in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 6
+[Tue Aug 23 09:08:46.173951 2016] [:error] [pid 130] [client 29.5.92.30:45346] PHP Parse error:  syntax error, unexpected 'mai92' (T_STRING) in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 6
+[Tue Aug 23 09:08:47.595518 2016] [:error] [pid 129] [client 29.5.92.30:45347] PHP Parse error:  syntax error, unexpected 'mai92' (T_STRING) in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 6
+[Tue Aug 23 09:09:06.824901 2016] [:error] [pid 127] [client 29.5.92.30:45348] PHP Parse error:  syntax error, unexpected 'mai92' (T_STRING) in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 6
+[Tue Aug 23 09:19:33.612681 2016] [:error] [pid 129] [client 29.5.92.30:45360] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:19:35.643305 2016] [:error] [pid 127] [client 29.5.92.30:45361] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:19:36.498215 2016] [:error] [pid 126] [client 29.5.92.30:45362] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:19:39.321471 2016] [:error] [pid 128] [client 29.5.92.30:45363] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:19:51.227335 2016] [:error] [pid 130] [client 29.5.92.30:45364] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:19:54.864831 2016] [:error] [pid 129] [client 29.5.92.30:45365] PHP Parse error:  syntax error, unexpected '<' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 8
+[Tue Aug 23 09:22:38.506892 2016] [:error] [pid 126] [client 29.5.92.30:45377] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:22:38.816350 2016] [:error] [pid 128] [client 29.5.92.30:45379] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:37:19.453313 2016] [:error] [pid 129] [client 29.5.92.30:45419] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:37:20.563361 2016] [:error] [pid 127] [client 29.5.92.30:45422] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:20.378044 2016] [:error] [pid 126] [client 29.5.92.30:45425] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:22.977252 2016] [:error] [pid 128] [client 29.5.92.30:45427] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:23.481319 2016] [:error] [pid 130] [client 29.5.92.30:45429] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:23.676970 2016] [:error] [pid 129] [client 29.5.92.30:45431] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:23.871390 2016] [:error] [pid 127] [client 29.5.92.30:45433] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:34.939622 2016] [:error] [pid 126] [client 29.5.92.30:45435] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:35.158527 2016] [:error] [pid 128] [client 29.5.92.30:45437] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:37.401215 2016] [:error] [pid 130] [client 29.5.92.30:45439] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:45.473359 2016] [:error] [pid 129] [client 29.5.92.30:45441] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:39:58.676541 2016] [:error] [pid 127] [client 29.5.92.30:45443] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:41:26.338832 2016] [:error] [pid 128] [client 29.5.92.30:45449] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:41:27.733161 2016] [:error] [pid 130] [client 29.5.92.30:45451] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:42:02.988094 2016] [:error] [pid 129] [client 29.5.92.30:45453] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:42:04.700000 2016] [:error] [pid 127] [client 29.5.92.30:45455] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:42:11.636650 2016] [:error] [pid 126] [client 29.5.92.30:45457] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10
+[Tue Aug 23 09:42:33.251921 2016] [:error] [pid 128] [client 29.5.92.30:45459] PHP Fatal error:  Call to a member function fetchAll() on boolean in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 10

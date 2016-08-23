@@ -1,0 +1,16 @@
+instruction pour le gitHub
+#premiere ligne pour bosser
+1)$ git clone https://github.com/MatthClerbois/Admin_Reseau.git
+
+2) blabla ecire le code
+#envoyer les fichiers qui ont chang√e sur github
+3) $ git add --all .
+#met √† jour la version avec un message pour le site
+4) $ git commit *message pour le site*
+#envoie le tout
+5) $ git push origin master
+
+
+////////////////
+#met sur le serveur la version Github
+*)$ git ull origin master
