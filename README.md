@@ -36,8 +36,3 @@ docker run -itd --name "mysql" --restart "unless-stopped" \
 -e MYSQL_DATABASE=wt5mc.db -e MYSQL_ROOT_PASSWORD=azerty \
 -v "/home/matth/Docker/mysql/etc":"/etc/mysql/conf.d" \
 mysql:latest
-```
-# run pour le conainer MAIL
-``` bash
-
-```
