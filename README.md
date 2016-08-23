@@ -1,7 +1,6 @@
 # Admin_Reseau
-# ici rapport vite fait du projet
 # run pour le conainer BIND
-docker run -ti --name "bind" --restart "unless-stopped" \
+$docker run -ti --name "bind" --restart "unless-stopped" \
  --net "matth" --ip "29.05.92.10" \
  -p 53:53/udp \
  -v "/home/matth/Docker/bind/data":"/data" \
