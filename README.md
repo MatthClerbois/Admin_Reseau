@@ -1,6 +1,6 @@
 # Admin_Reseau
 # run pour le container BIND
-		```bash
+		``` bash
 		docker run -ti --name "bind" --restart "unless-stopped" \
 		 --net "matth" --ip "29.05.92.10" \
 		 -p 53:53/udp \
@@ -9,7 +9,7 @@
 		 ```
  
 # run pour le container APACHE
-		```bash 
+		``` bash 
 		docker run -it --name apache --restart "unless-stopped" \
 		 --net "matth" --ip "29.05.92.20" \
 		 -v "/home/matth/Docker/apache/www":"/var/www" \
@@ -19,7 +19,7 @@
 		 ```
  
 # run pour le container NGINX
-		```bash
+		``` bash
 		docker run -it --name nginx \
 		 --net "matth" --ip "29.05.92.30" \
 		 -p 80:80 -p 443:443 -p 3306:3306 \
@@ -38,6 +38,6 @@
 		 mysql:latest
 		 ```
 # run pour le conainer MAIL
-		```bash
+		``` bash
 		
 		```
