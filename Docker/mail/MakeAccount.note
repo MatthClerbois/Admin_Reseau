@@ -1,0 +1,5 @@
+#pour créer un nouveau compte
+sudo ./makeAccount.sh user password
+
+
+#le script makeMKDIM permet de créer une clé de sécurite pour empe +- "man in the middl�e"

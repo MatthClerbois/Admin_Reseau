@@ -89,3 +89,4 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 [Tue Aug 23 10:06:37.549122 2016] [:error] [pid 130] [client 29.5.92.30:45588] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
 [Tue Aug 23 10:06:38.524883 2016] [:error] [pid 129] [client 29.5.92.30:45589] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
 [Tue Aug 23 10:07:06.089201 2016] [:error] [pid 127] [client 29.5.92.30:45590] PHP Parse error:  syntax error, unexpected '/' in /var/www/b2b.wt5mc.ephec-ti.be/public_html/index.php on line 11
+[Tue Aug 23 14:39:20.216305 2016] [:error] [pid 127] [client 29.5.92.30:45673] script '/var/www/html/command.php' not found or unable to stat

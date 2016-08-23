@@ -1,0 +1,43 @@
+#mail.wt5mc.ephec-ti.be -> connexion au mail normal ( user : wt5mc@wt5mc.ephec-ti.be / pwd : azerty)
+#mail.wt5mc.ephec-ti.be/?/admin -> connexion en tems qu'admin(  user : admin / pwd : 29mai92)
+
+#####
+
+#1) mx record -> nom du domaine ( ajouter un record MX mail.wt5.....) ( osef prio pcq 1 seul serveur mx)
+pointer sur juste 'mail' pcq A record déjà faiavec le Wt5.....
+
+#DL image container "tvial" ( simple, connue, top du top)
+#pour lancer tvial, utiliser un docker-compose.yml ("""script/run/xx.conf""" des containers) pcq pas de 
+domaine avec les docker runs
+
+#la partie volume du docker compose permet de garder tout en mémoire et de le partager entre les containers
+
+#makeAccount.sh créé un container temporaire -rm) avec un user et un mdp -> gén§ère un user
+ dans config-postfix account ( pas de BDD pour le mail !ce container ci n'en utilise pas)
+
+#makeDkim.sh créé un container temporaire aussi qui permet de vérifier l'authenticitédns du serveur mail
+ ( il ne doit être lancé qu'une seule fo( cré tjr la meme cl�) car volume persistant) 
+# après génération de clé, BIND doit �trelmaniipulé en commande car certaines ne sont pas 
+dispo wia l'interface webmin ( on rentre la clécréé dans le recd "txt" du records file)
+
+#on peut lancer le serveur mail! ( 4 ports dans le docker compose ( on n'utilise que le 993[143](rcpt) et 
+le 587[25](envoi))avec:
+$ docker-compose up -d mail
+
+#installation de l'interface graphique ( container ' rainloop' -> ensemble de scripts php/html qui travaille avec le
+serveur mail). le container contient éalement un nginx qui traduit
+les requetes http en php ( et transmet au user) 
+sans exposer les ports 
+#nginx ici, ne fait que transmettre les données
+
+#via rainloop, compte admin de base ( mdp: 12345) DE RAINLOOP =/= compte admin créé par makeAccounth
+ n'a d'admin que le nom !
+#dans les options 'domains' rajouter une zone "wt5mc.ephec-ti.be" pour permettre la communication
+avec ce domaine + mettre les ports en sécurisés ( 993 / 587 ) + SSL/TLS et START TLS 
+#dans les options, "contact" , rajouter notre db ( .40) ( attention les mails sont stockés en local
+ rainloop n'est qu'une interface)
+#dans les options, 'page Title' -> wt5mc
+#dans les options, 'login' -> default domain = "wt5mc.ephec-ti.be"
+
+
+

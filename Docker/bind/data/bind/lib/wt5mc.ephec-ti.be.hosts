@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 38400      ; 10 hours 40 minutes
 wt5mc.ephec-ti.be.	IN	SOA	dns.wt5mc.ephec-ti.be. webmaster.wt5mc.ephec-ti.be. (
-			1462104089
+			1462104098
 			10800
 			3600
 			604800
@@ -14,3 +14,7 @@ www.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
 b2b.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
 dns.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
 webmin.wt5mc.ephec-ti.be.	IN	A	51.254.212.240
+mail._domainkey IN      TXT     ( "v=DKIM1; k=rsa; "
+          "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC6pfM1q1/lf+/fw3qiNsuGNpKWFgxGHBR8kV5IB0v4jftZmxjD7cJXfkgwpf39YstBsOLwmRC3b2Cyffq3+2WsQrwt4oqpwZe8u5I2m03+/3HLrS09P83ERxUeY1XXAmnALo0nfSaWYjdJoIrPAvwUKo6fzSXB/Wp5DXNWFaMbjwIDAQAB" )  ; ----- DKIM key mail for wt5mc.ephec-ti.be
+wt5mc.ephec-ti.be.	IN	MX	5 mail
+mail.wt5mc.ephec-ti.be.	IN	A	51.254.212.240

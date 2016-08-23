@@ -49,3 +49,8 @@
 2016/08/23 08:15:45 [error] 5#5: *37 access forbidden by rule, client: 62.235.172.132, server: intranet.wt5mc.ephec-ti.be, request: "GET / HTTP/1.1", host: "intranet.wt5mc.ephec-ti.be"
 2016/08/23 09:33:14 [emerg] 1#1: unknown directive "header_filter_by_lua" in /etc/nginx/nginx.conf:87
 2016/08/23 09:36:41 [emerg] 1#1: unknown directive "ProxyPassReverseCookieDomain" in /etc/nginx/nginx.conf:76
+2016/08/23 15:43:37 [error] 27#27: *390 access forbidden by rule, client: 62.235.172.132, server: intranet.wt5mc.ephec-ti.be, request: "GET / HTTP/1.1", host: "intranet.wt5mc.ephec-ti.be"
+2016/08/23 15:43:37 [error] 27#27: *390 access forbidden by rule, client: 62.235.172.132, server: intranet.wt5mc.ephec-ti.be, request: "GET /favicon.ico HTTP/1.1", host: "intranet.wt5mc.ephec-ti.be", referrer: "http://intranet.wt5mc.ephec-ti.be/"
+2016/08/23 21:07:46 [emerg] 1#1: unknown directive "ProxyPassReverseCookieDomain" in /etc/nginx/nginx.conf:76
+2016/08/23 21:08:29 [error] 5#5: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 83.134.35.192, server: mail.wt5mc.ephec-ti.be, request: "GET / HTTP/1.1", upstream: "http://29.5.92.50:9000/", host: "mail.wt5mc.ephec-ti.be"
+2016/08/23 21:08:29 [error] 5#5: *1 recv() failed (104: Connection reset by peer) while reading response header from upstream, client: 83.134.35.192, server: mail.wt5mc.ephec-ti.be, request: "GET /favicon.ico HTTP/1.1", upstream: "http://29.5.92.50:9000/favicon.ico", host: "mail.wt5mc.ephec-ti.be", referrer: "http://mail.wt5mc.ephec-ti.be/"

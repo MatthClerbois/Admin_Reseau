@@ -13,3 +13,6 @@ NGINX 	: 29.05.92.30
 
 #adresse du container mysql
 MYSQL 	: 29.05.92.40
+
+#adresse du container rainloop/nginx
+	: 29.05.92.50
